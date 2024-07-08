@@ -5,3 +5,4 @@ mkdir -p ~/.ssh
 sudo cp idkey/id_ed25519 ~/.ssh
 sudo cp *.sh /bin/
 rm idkey -rf
+sudo chmod 0664 ~/.ssh/id_ed25519
